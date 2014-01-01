@@ -13,6 +13,11 @@
 	cancelling that same worker.  This caused a segmenation
 	fault. Reported and tested by Anatol Pomozov
 
+2013-02-07 Miklos Szeredi <miklos@szeredi.hu>
+
+        * libfuse: pass security context options to kernel. Patch by
+        Dalvik Khertel
+    
 2013-02-04  Miklos Szeredi <miklos@szeredi.hu>
 
 	* libfuse: fix crash in unlock_path().  Patch by Ratna Manoj
