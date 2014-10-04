@@ -41,6 +41,7 @@ LOCAL_SHARED_LIBRARIES := \
 	libutils
 
 LOCAL_CFLAGS := \
+	-Os \
 	-D_FILE_OFFSET_BITS=64 \
 	-DFUSE_USE_VERSION=26 \
     -fno-strict-aliasing
