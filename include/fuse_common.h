@@ -37,10 +37,6 @@
 #error Please add -D_FILE_OFFSET_BITS=64 to your compile flags!
 #endif
 
-#if defined(__ANDROID__)
-typedef loff_t off_t;
-#endif
-
 #ifdef __cplusplus
 extern "C" {
 #endif
