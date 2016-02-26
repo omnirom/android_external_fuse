@@ -15,10 +15,6 @@
 #ifndef _FUSE_COMMON_H_
 #define _FUSE_COMMON_H_
 
-#if defined(__ANDROID__)
-#define _OFF_T_DEFINED_
-#endif
-
 #include "fuse_opt.h"
 #include <stdint.h>
 #include <sys/types.h>
